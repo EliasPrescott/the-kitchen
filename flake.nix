@@ -15,12 +15,14 @@
       let
         lib = nixpkgs.lib;
         pkgs = nixpkgs.legacyPackages.${system};
+        neovim-config = import ./packages/neovim.nix {
+          inherit nixpkgs system;
+        };
       in {
         # This is my personal configuration of Neovim.
         # I'm exposing it as a standalone package to make it easier for others to try.
-        packages.neovim = import ./packages/neovim.nix {
-          inherit nixpkgs nixvim system;
-        };
+        configs.neovim = neovim-config;
+        packages.neovim = nixvim.legacyPackages.${system}.makeNixvim neovim-config;
 
         # Most of my development environment wrapped up in a shell
         devShells.default = pkgs.mkShell {

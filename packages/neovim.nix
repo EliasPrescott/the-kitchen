@@ -1,10 +1,19 @@
-{ nixpkgs, nixvim, system  }:
+{ nixpkgs, system }:
   let
-    lib = nixpkgs.lib;
+    inherit (nixpkgs.lib) generators getExe;
     pkgs = nixpkgs.legacyPackages.${system};
   in
-  nixvim.legacyPackages.${system}.makeNixvim {
-    colorschemes.gruvbox.enable = true;
+  {
+    colorscheme = "gruvbox";
+    extraConfigLuaPost = ''
+      vim.cmd [[
+        hi Normal guibg=none
+        hi NonText guibg=none
+        hi Normal ctermbg=none
+        hi NonText ctermbg=none
+        hi EndOfBuffer guibg=none
+      ]]
+    '';
     opts = {
       number = true;
       relativenumber = true;
@@ -14,6 +23,8 @@
       expandtab = true;
       swapfile = false;
       clipboard = "unnamedplus";
+      ignorecase = true;
+      smartcase = true;
     };
     globals = {
       mapleader = " ";
@@ -29,7 +40,7 @@
         action.__raw = ''
         function()
           require("telescope.builtin").find_files({
-            find_command = { "${lib.getExe pkgs.ripgrep}", "--files", "--hidden", "--no-ignore", "--glob", "!**/.git/*" },
+            find_command = { "${getExe pkgs.ripgrep}", "--files", "--hidden", "--no-ignore", "--glob", "!**/.git/*" },
           })
         end'';
       }
@@ -83,13 +94,11 @@
           enable = true;
           settings = {
             cmd = [
-              "${lib.getExe pkgs.roslyn-ls}"
+              "${getExe pkgs.roslyn-ls}"
               "--logLevel"
               "Information"
               "--extensionLogDirectory"
-              # I don't think this will actually work, but I haven't tested it yet.
-              # I think it will be interpreted as a literal Lua string.
-              "vim.fs.joinpath(vim.uv.os_tmpdir(), 'roslyn_ls/logs')"
+              (generators.mkLuaInline "vim.fs.joinpath(vim.uv.os_tmpdir(), 'roslyn_ls/logs')")
               "--stdio"
             ];
           };
