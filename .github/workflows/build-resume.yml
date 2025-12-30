@@ -9,6 +9,10 @@ jobs:
     - uses: cachix/install-nix-action@v25
       with:
         nix_path: nixpkgs=channel:nixos-unstable
-    - run: nix build .#resume
-    - run: ls result/
-    - run: file result/EliasPrescottResume.pdf
+    - name: Build Resume
+      run: nix build .#resume
+    - name: Upload Resume
+      uses: actions/upload-artifact@v4
+      with:
+        name: EliasPrescottResume.pdf
+        path: result/EliasPrescottResume.pdf
