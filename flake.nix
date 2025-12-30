@@ -19,7 +19,10 @@
         neovim-config = import ./packages/neovim.nix {
           inherit nixpkgs system;
         };
-      in {
+        fonts = import ./fonts.nix {
+          inherit (pkgs) stdenv fetchgit;
+        };
+      in rec {
         # This is my personal configuration of Neovim.
         # I'm exposing it as a standalone package to make it easier for others to try.
         configs.neovim = neovim-config;
@@ -35,7 +38,7 @@
             mkdir $out
             ${pkgs.typst}/bin/typst compile \
               --ignore-system-fonts \
-              --font-path "${pkgs.google-fonts}/share/fonts/truetype" \
+              --font-path "${fonts.calistoga}" \
               resume.typ \
               $out/EliasPrescottResume.pdf
           '';
