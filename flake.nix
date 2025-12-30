@@ -37,6 +37,7 @@
           buildPhase = ''
             mkdir $out
             ${pkgs.typst}/bin/typst compile \
+              --creation-timestamp "${builtins.toString self.lastModified}" \
               --ignore-system-fonts \
               --font-path "${fonts.calistoga}" \
               resume.typ \
