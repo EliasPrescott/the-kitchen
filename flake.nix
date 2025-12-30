@@ -15,6 +15,7 @@
       let
         lib = nixpkgs.lib;
         pkgs = nixpkgs.legacyPackages.${system};
+        fs = lib.fileset;
         neovim-config = import ./packages/neovim.nix {
           inherit nixpkgs system;
         };
@@ -23,6 +24,22 @@
         # I'm exposing it as a standalone package to make it easier for others to try.
         configs.neovim = neovim-config;
         packages.neovim = nixvim.legacyPackages.${system}.makeNixvim neovim-config;
+
+        packages.resume = pkgs.stdenv.mkDerivation {
+          name = "EliasPrescottResume";
+          src = fs.toSource {
+            root = ./documents;
+            fileset = ./documents/resume.typ;
+          };
+          buildPhase = ''
+            mkdir $out
+            ${pkgs.typst}/bin/typst compile \
+              --ignore-system-fonts \
+              --font-path "${pkgs.google-fonts}/share/fonts/truetype" \
+              resume.typ \
+              $out/EliasPrescottResume.pdf
+          '';
+        };
 
         # Most of my development environment wrapped up in a shell
         devShells.default = pkgs.mkShell {
