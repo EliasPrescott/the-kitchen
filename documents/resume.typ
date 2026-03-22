@@ -145,9 +145,9 @@
 
 = My Professional Mission Statement
 
-My purpose at work is to make people's lives better, to always be learning, and to always be teaching.
-Technology just happens to be the tool I use to make that purpose possible.
-No responsibility is too small or too large, as long as it is in service of helping the people around me.
+My professional mission is to make people's lives better, to always be learning, and to always be teaching.
+I obsess over details and love taking on new challenges.
+I take pride in my work and love what I do.
 
 #v(12pt)
 
@@ -166,7 +166,7 @@ No responsibility is too small or too large, as long as it is in service of help
   [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
   [Systems Engineering], [Using Rust, Zig, and Odin for high-performance, no-GC systems.],
   [Game Development], [SDL3, HLSL, gameplay programming, custom UI layout systems.],
-  [Unix/Linux/BSD Administration], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
+  [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
   [Databases], [PostgreSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
   [Developer Tooling], [Process automation using Bash and Ruby, Developing and using command-line applications, Assisting and training other developers.],
 )
