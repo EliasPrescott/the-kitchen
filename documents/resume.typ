@@ -164,11 +164,11 @@ No responsibility is too small or too large, as long as it is in service of help
   [Front-end Web Development], [HTML, CSS, JavaScript, TypeScript, React, HTMX, JQuery, SEO, Web Accessibility.],
   [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django, Ruby on Rails, Rust.],
   [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
+  [Systems Engineering], [Using Rust, Zig, and Odin for high-performance, no-GC systems.],
+  [Game Development], [SDL3, HLSL, gameplay programming, custom UI layout systems.],
   [Unix/Linux/BSD Administration], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
   [Databases], [PostgreSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
   [Developer Tooling], [Process automation using Bash and Ruby, Developing and using command-line applications, Assisting and training other developers.],
-  [Software Architecture], [Monolith & micro-service design experience, Working knowledge of traditional and modern approaches to software design.],
-  [Visual Design], [Web Design, UI/UX Design, Working with Mock-ups.],
 )
 
 #v(12pt)
