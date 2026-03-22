@@ -9,7 +9,7 @@
       url = "https://github.com/google/fonts.git";
       sparseCheckout = [ "ofl/calistoga/Calistoga-Regular.ttf" ];
       rev = "0edc5b3328428f52c6df57b9df32b2a867ecaad2";
-      hash = "";
+      hash = "sha256-dO3W/3ErV1VJ9HvmVz7Gk8gCX56BRUrGYkdCBDOgYIA=";
     };
     buildPhase = ''
       mkdir $out
