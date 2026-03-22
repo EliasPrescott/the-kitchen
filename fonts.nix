@@ -8,7 +8,8 @@
     src = fetchgit {
       url = "https://github.com/google/fonts.git";
       sparseCheckout = [ "ofl/calistoga/Calistoga-Regular.ttf" ];
-      hash = "sha256-5NTmSSn1AqF632S4EHgUiGB7Aq9xM3faDKoUHxtY5qo=";
+      rev = "0edc5b3328428f52c6df57b9df32b2a867ecaad2";
+      hash = "";
     };
     buildPhase = ''
       mkdir $out
