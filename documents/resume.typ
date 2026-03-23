@@ -77,7 +77,7 @@
       These changes save time and reduce confusion for our customers.
     ],
     [
-      Reworked our CI/CD pipeline and our pipeline hosting from Circle CI to GitHub Actions.
+      Reworked our CI/CD pipeline and moved our hosting from Circle CI to GitHub Actions.
       This simplified operations for our team, reduced vendor lock-in, and will make future updates easier.
     ],
     [
@@ -86,7 +86,7 @@
     [
       Analyzed and optimized several large SQL queries, resulting in 10-50x speed boosts on average.
       These changes save time for my coworkers, but they also simplified our architecture by
-      allowing us to remove an additional data caching layer in our web app.
+      allowing us to remove an additional data caching layer.
     ]
   )
 )
@@ -167,7 +167,7 @@ I take pride in my work and love what I do.
   [Systems Engineering], [Using Rust, Zig, and Odin for high-performance, no-GC systems.],
   [Game Development], [SDL3, HLSL, gameplay programming, custom UI layout systems.],
   [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
-  [Databases], [PostgreSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
+  [Database Programming], [PostgreSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
   [Developer Tooling], [Process automation using Bash and Ruby, Developing and using command-line applications, Assisting and training other developers.],
 )
 
