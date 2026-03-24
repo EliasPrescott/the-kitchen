@@ -165,9 +165,8 @@ I take pride in my work and love what I do.
   [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django, Ruby on Rails, Rust.],
   [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
   [Systems Engineering], [Using Rust, Zig, and Odin for high-performance, No-GC systems.],
-  [Game & Game Engine Development], [SDL3, HLSL, Gameplay programming, Custom UI layout systems.],
   [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
-  [Database Programming], [PostgreSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
+  [Database Programming], [PostgreSQL, SQL Server, SQLite, DataFusion, Custom Query Engines, Schema Design, Query Optimization & Index Design, Redis.],
   [Developer Tooling], [Process automation using Bash and Ruby, Developing and using command-line applications, Assisting and training other developers.],
 )
 
