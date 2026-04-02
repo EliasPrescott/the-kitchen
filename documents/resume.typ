@@ -162,7 +162,7 @@ I take pride in my work and love what I do.
 
   [Front-end Web Development], [HTML, CSS, JavaScript, TypeScript, React, HTMX, JQuery, SEO, Web Accessibility.],
   [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django, Ruby on Rails, Rust.],
-  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
+  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, OpenResty, Lua, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
   [Systems Engineering], [Using Rust, Go, C, Zig, and Odin for high-performance systems.],
   [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
   [Database Programming], [PostgreSQL, SQL Server, SQLite, DataFusion, Custom Query Engines, Schema Design, Query Optimization & Index Design, Redis.],
