@@ -45,9 +45,8 @@
   columns: (auto, 1fr, auto),
   grid.cell([
     = Elias Prescott
-    Computer Programming,
-    DevOps,
-    Nerd Stuff \
+    Software & Data Engineering,
+    DevOps \
     Oklahoma, US
   ]),
   grid.cell([]),
