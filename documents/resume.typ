@@ -1,12 +1,12 @@
 #show link: it => smallcaps(it)
 
 #show heading: it => [
-  #set text(size: 12pt, font: "Calistoga")
+  #set text(size: 12pt)
   #it.body \
 ]
 
 #set page(
-  margin: (x: 3cm, y: 2cm),
+  margin: (x: 3cm, y: 2.5cm),
   footer: context [
     #set align(center)
     #counter(page).display(
@@ -45,8 +45,8 @@
   columns: (auto, 1fr, auto),
   grid.cell([
     = Elias Prescott
-    Software & Data Engineering,
-    DevOps \
+    Software Engineering,
+    Full-Stack Web Development \
     Oklahoma, US
   ]),
   grid.cell([]),
@@ -72,20 +72,20 @@
   "Oklahoma City, OK",
   (
     [
-      Redesigned an education e-commerce site using React.js, SASS, and the Material design library.
-      These changes save time and reduce confusion for our customers.
+      Redesigned an education e-commerce site with an entirely new visual style and shopping flow.
+      These changes save time for customers and increased cart conversions.
     ],
     [
-      Reworked our CI/CD pipeline and moved our hosting from Circle CI to GitHub Actions.
-      This simplified operations for our team, reduced vendor lock-in, and will make future updates easier.
+      Led a large refactor of all our app's accounting logic.
+      I converted 40,000 lines of legacy code down to 10,000 lines of cleaner, more maintainable code.
+      I also learned double entry bookkeeping in the process.
     ],
     [
-      Added numerous features to an internal web app using C\#, React.js, and Postgres.
+      Added countless features to an internal web app using C\#, React.js, and Postgres.
     ],
     [
-      Analyzed and optimized several large SQL queries, resulting in 10-50x speed boosts on average.
-      These changes save time for my coworkers, but they also simplified our architecture by
-      allowing us to remove an additional data caching layer.
+      Analyzed and optimized large SQL queries, speeding up multiple reports by 10-50x,
+      and also simplifying our architecture by eliminating the need for an additional data caching layer.
     ]
   )
 )
@@ -160,12 +160,12 @@ I take pride in my work and love what I do.
     [*Area*], [*Breakdown*]
   ),
 
-  [Front-end Web Development], [HTML, CSS, JavaScript, TypeScript, React, HTMX, JQuery, SEO, Web Accessibility.],
-  [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django, Ruby on Rails, Rust.],
-  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, OpenResty, Lua, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
+  [Front-end Web Development], [HTML, CSS, JavaScript, TypeScript, React, HTMX, JQuery, Visual Design, SEO, Web Accessibility.],
+  [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Rust.],
+  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
   [Systems Engineering], [Using Rust, Go, C, Zig, and Odin for high-performance systems.],
-  [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, QEMU, Proxmox, NixOS, Vim, NeoVim, Not Emacs.],
-  [Database Programming], [PostgreSQL, SQL Server, SQLite, DataFusion, Custom Query Engines, Schema Design, Query Optimization & Index Design, Redis.],
+  [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, NixOS, Vim, NeoVim, Not Emacs.],
+  [Database Programming], [SQL, PostgreSQL, Advanced PL/pgSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
   [Developer Tooling], [Process automation using Bash and Ruby, Developing and using command-line applications, Assisting and training other developers.],
 )
 
