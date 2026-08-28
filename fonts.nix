@@ -1,8 +1,6 @@
-# You could just use the google-fonts pacakge in nixpkgs, but then you
-# have to pull in *all* the fonts just to use one or two.
-# Defining my font derivations manually lets me use sparse checkouts to save
-# time and space.
-{ stdenv, fetchgit }: {
+# You could just use the google-fonts pacakge in nixpkgs, but then you have to pull in *all* the fonts just to use one or two.
+# Defining my font derivations manually lets me use sparse checkouts to save time and space.
+{ stdenv, fetchgit, ... }: {
   calistoga = stdenv.mkDerivation {
     name = "CalistogaFont";
     src = fetchgit {
