@@ -46,7 +46,8 @@
   grid.cell([
     = Elias Prescott
     Software Engineering,
-    Full-Stack Web Development \
+    Web Development,
+    DevOps \
     Oklahoma, US
   ]),
   grid.cell([]),
@@ -76,8 +77,7 @@
       These changes save time for customers and increased cart conversions.
     ],
     [
-      Led a large refactor of all our app's accounting logic.
-      I converted 40,000 lines of legacy code down to 10,000 lines of cleaner, more maintainable code.
+      Refactored all our app's accounting logic, converting 40,000 lines of legacy code down to 10,000 lines of simpler, more maintainable code.
       I also learned double entry bookkeeping in the process.
     ],
     [
@@ -86,6 +86,10 @@
     [
       Analyzed and optimized large SQL queries, speeding up multiple reports by 10-50x,
       and also simplifying our architecture by eliminating the need for an additional data caching layer.
+    ],
+    [
+      Developed and released multiple new PDF reports & a search feature in under a week's time, right before the school year started.
+      I recieved a service award for representing the school's values while working on this.
     ]
   )
 )
@@ -104,7 +108,7 @@
     ],
     [
       Automated hundreds of tests for a vital internal application using TypeScript.
-      These tests save around 500 hours of manual testing work for each release cycle of the application.
+      These tests save around 500 hours of manual testing each release cycle.
     ],
     [
       Wrote web and API load tests in Python for the company's new e-commerce site.
@@ -131,10 +135,6 @@
       Maintained and managed over 100 different client WordPress sites.
       This kept client sites secure and allowed us to catch regressions early.
     ],
-    [
-      Developed an internal application to track history for WordPress plugin updates.
-      This app provides a detailed audit trail for plugin updates and enables easier update rollbacks.
-    ],
   )
 )
 
@@ -145,7 +145,7 @@
 = My Professional Mission Statement
 
 My professional mission is to make people's lives better, to always be learning, and to always be teaching.
-I obsess over details and love taking on new challenges.
+I love taking on new challenges.
 I take pride in my work and love what I do.
 
 #v(12pt)
@@ -161,12 +161,12 @@ I take pride in my work and love what I do.
   ),
 
   [Front-end Web Development], [HTML, CSS, JavaScript, TypeScript, React, HTMX, JQuery, Visual Design, SEO, Web Accessibility.],
-  [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Rust.],
-  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus, OpenTelemetry.],
-  [Systems Engineering], [Using Rust, Go, C, Zig, and Odin for high-performance systems.],
-  [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, NixOS, Vim, NeoVim, Not Emacs.],
+  [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django.],
+  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus.],
   [Database Programming], [SQL, PostgreSQL, Advanced PL/pgSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
-  [Developer Tooling], [Process automation using Bash and Ruby, Developing and using command-line applications, Assisting and training other developers.],
+  [Systems Engineering], [Using Rust, Go, and Odin for high-performance systems.],
+  [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, NixOS, Vim, NeoVim, Not Emacs.],
+  [Developer Tooling], [Process automation using Bash and Python, Developing and using command-line applications, Assisting and training other developers.],
 )
 
 #v(12pt)
@@ -184,9 +184,10 @@ I take pride in my work and love what I do.
 
     = About this Document
 
-    This résumé was compiled using Typst from a source file written by yours truly.
-    Every line, letter, and measurement was carefully considered.
+    This résumé was compiled using Typst and packaged using Nix.
+    Every line, letter, and measure was carefully considered.
     If you have any issues or suggestions for its betterment, please contact me immediately.
+
     Last updated #datetime.today().display("[month repr:short] [day], [year]").
   ],
   grid.cell[],
