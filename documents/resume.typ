@@ -84,11 +84,11 @@
       Added countless features to an internal web app using C\#, React.js, and Postgres.
     ],
     [
-      Analyzed and optimized large SQL queries, speeding up multiple reports by 10-50x,
-      and also simplifying our architecture by eliminating the need for an additional data caching layer.
+      Optimized large SQL queries, speeding up multiple reports by 10-50x,
+      and simplifying our architecture by eliminating the need for an additional data caching layer.
     ],
     [
-      Developed and released multiple new PDF reports & a search feature in under a week's time, right before the school year started.
+      Developed and released multiple PDF reports and a search feature in under a week's time, right before the school year started.
       I recieved a service award for representing the school's values while working on this.
     ]
   )
@@ -172,7 +172,7 @@ I take pride in my work and love what I do.
 #v(12pt)
 
 #grid(
-  columns: (auto, 12pt, auto),
+  columns: (auto, auto, auto),
   grid.cell[
     = Education
 
