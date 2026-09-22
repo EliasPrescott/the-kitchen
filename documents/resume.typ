@@ -182,12 +182,6 @@ I take pride in my work and love what I do.
 
     #v(12pt)
 
-    = About this Document
-
-    This résumé was compiled using Typst and packaged using Nix.
-    Every line, letter, and measure was carefully considered.
-    If you have any issues or suggestions for its betterment, please contact me immediately.
-
     Last updated #datetime.today().display("[month repr:short] [day], [year]").
   ],
   grid.cell[],
