@@ -89,7 +89,7 @@
     ],
     [
       Developed and released multiple PDF reports and a search feature in under a week's time, right before the school year started.
-      I recieved a service award for representing the school's values while working on this.
+      I received a service award for representing the school's values while working on this.
     ]
   )
 )
@@ -150,6 +150,19 @@ I take pride in my work and love what I do.
 
 #v(12pt)
 
+= My Interests
+
+Developing internal & public-facing web applications,
+Database design & writing SQL queries,
+Learning more about databases (especially Postgres) and writing custom plugins,
+Setting up CI/CD automations,
+Tinkering with Linux/FreeBSD machines,
+Reading software engineering books,
+Teaching and learning from other developers,
+Writing technical documentation & blog posts.
+
+#v(12pt)
+
 = Skills
 
 #table(
@@ -161,18 +174,17 @@ I take pride in my work and love what I do.
   ),
 
   [Front-end Web Development], [HTML, CSS, JavaScript, TypeScript, React, HTMX, JQuery, Visual Design, SEO, Web Accessibility.],
-  [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django.],
-  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Ansible, Jenkins, GitHub Actions, Grafana, Prometheus.],
-  [Database Programming], [SQL, PostgreSQL, Advanced PL/pgSQL, SQL Server, SQLite, Schema Design, Query Optimization & Index Design, Redis.],
-  [Systems Engineering], [Using Rust, Go, and Odin for high-performance systems.],
-  [Unix/Linux/BSD Usage], [OpenSSH, Nginx, WireGuard, NixOS, Vim, NeoVim, Not Emacs.],
-  [Developer Tooling], [Process automation using Bash and Python, Developing and using command-line applications, Assisting and training other developers.],
+  [Back-end Web Development], [C\#, .NET Core, Web APIs, JavaScript, TypeScript, Python, Django, Rust, Go.],
+  [DevOps & Infrastructure], [Bash, Docker, Nix, Terraform, GCP, Jenkins, GitHub Actions.],
+  [Database Programming], [SQL, PostgreSQL, PL/SQL, PL/pgSQL, SQL Server, SQLite, Schema Design, Query Optimization, Index Design.],
+  [Unix/BSD Usage & System Administration], [Linux Containers, FreeBSD, NixOS, Vim],
+  [Helping other Developers], [Process automation, Developing helper scripts, Assisting and training other developers, Mentoring interns, Debugging development environments.],
 )
 
 #v(12pt)
 
 #grid(
-  columns: (auto, auto, auto),
+  columns: (auto, 1fr, auto),
   grid.cell[
     = Education
 
